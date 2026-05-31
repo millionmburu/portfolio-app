@@ -1,6 +1,7 @@
 function searchBar({searchTerm, setSearchTerm}){
     return (
-        <input 
+        <input
+            className="search-bar" 
             type="text" 
             placeholder="Search for Projects..."
             value={searchTerm}

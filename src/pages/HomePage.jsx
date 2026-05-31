@@ -9,7 +9,7 @@ function Homepage({
     setSearchTerm,
 }) {
     return(
-        <div>
+        <div className="app-container">
             <h1>My Project Showcase</h1>
 
             <SearchBar 

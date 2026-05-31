@@ -2,7 +2,7 @@ function projectList({ projects }) {
   return (
     <div>
       {projects.map((project) => (
-        <div key={project.id}>
+        <div key={project.id} className="project-card">
           <h3>{project.title}</h3>
           <p>{project.description}</p>
         </div>
